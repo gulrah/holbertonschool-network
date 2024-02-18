@@ -1,2 +1,4 @@
-2
-2
+!/usr/bin/env bash
+# It explains the OSI model
+echo "2"
+echo "2"
