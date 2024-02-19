@@ -1,1 +1,1 @@
-sudo netstat -tuln
+sudo netstat -tulnp
