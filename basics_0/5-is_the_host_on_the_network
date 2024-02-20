@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# IP address pinger script
-if [ $# -eq 0 ]; then
+# IP address passed as an argument
+if [ -z "$1" ]; then
     echo "Usage: $0 {IP_ADDRESS}"
-else
-    ping -c 5 "$1"
+    exit 1
 fi
+ping -c 5 "$1"
