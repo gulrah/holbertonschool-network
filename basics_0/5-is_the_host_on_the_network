@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Welcome to the IP address pinger script!
 if [ $# -eq 0 ]; then
-echo "Please provide an IP address as an argument."
+    echo "Please provide an IP address as an argument."
 else
-# Get the IP address from the first argument
-ping -c 5 "$1"
+    # Get the IP address from the first argument
+    ping -c 5 "$1"
 fi
